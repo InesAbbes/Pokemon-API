@@ -1,0 +1,197 @@
+body, html {
+    background-image: url("../Img/background.png");
+    height: 99%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#Pokedex{
+    position: absolute;
+    left: 22%;
+    top: 10%;
+    width: 54%;
+    height: 80%;
+    transform-origin: center center;
+    opacity: initial;
+    display: block;
+    cursor: inherit;
+    z-index: 6;
+
+
+}
+#Pokedex img{
+    display: block;
+    border-width: 0px;
+    box-shadow: none;
+    width: 100%;
+    height: 100%;
+}
+
+#searchBox{
+    position: absolute;
+    left: 54.5%;
+    top: 77.2%;
+    width: 17.6%;
+    height: 6%;
+    z-index: 7;
+
+
+}
+#searchBox input{
+    width: 100%;
+    height: 105%;
+    z-index: 7;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+
+#displayBox{
+    position: absolute;
+    left: 27.7%;
+    top: 34%;
+    width: 17%;
+    height: 23.5%;
+    z-index: 5;
+   background-color: #8EAAF2;
+}
+
+#displayBox img{
+    left: 28%;
+    top: 30%;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#infoBox{
+    position: absolute;
+    left: 54.5%;
+    top: 36%;
+    width: 17.7%;
+    height: 30%;
+    z-index: 7;
+    background-color: white;
+    border-radius: 3%;
+
+
+}
+#infoBox p{
+    margin-bottom: 0;
+    margin-left: 10px;
+
+}
+
+#left{
+    position: absolute;
+    left: 40.2%;
+    top: 72%;
+    z-index: 7;
+    width: 2%;
+    height: 4%;
+    border:solid 0;
+    background: rgba(255, 255, 255,0);
+    font-size: 23px;
+}
+#right{
+    position: absolute;
+    left: 44.8%;
+    top: 72%;
+    z-index: 7;
+    width: 2%;
+    height: 4%;
+    border:solid 0;
+    background: rgba(255, 255, 255,0);
+    font-size: 23px;
+}
+#search{
+    position: absolute;
+    left: 69.8%;
+    top: 69.1%;
+    z-index: 7;
+    width: 2%;
+    height: 4%;
+    border:solid 0;
+    background: rgba(255, 255, 255,0);
+}
+
+
+#move{
+    height: 40%;
+    margin-left: 10px;
+}
+
+#prevEvo{
+margin-top: 28px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+#prevEvoImg{
+    width: 100%;
+    height: 100%;
+}
+#displayBox2{
+    position: absolute;
+    left: 66%;
+    top: 10%;
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#displayBoxBg{
+    position: absolute;
+    left: 54.5%;
+    top: 56%;
+    width: 17.7%;
+    height: 10%;
+    z-index: 7;
+    background-color: lightgray;
+    border-radius: 3%;
+
+
+}
+
+
+
+
+button:focus {
+    outline: 0 !important;
+}
+
+@media only screen and (max-width: 400px) {
+    * {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-height: 850px) {
+    * {
+    }
+}
+
+@media only screen and (max-height: 580px) {
+    * {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-height: 430px) {
+    * {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-height: 340px) {
+    * {
+        font-size: 7px;
+    }
+}
+
+
+
+
